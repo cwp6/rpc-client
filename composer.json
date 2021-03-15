@@ -8,9 +8,7 @@
     "swoft"
   ],
     "require": {
-      "swoft/framework": "~2.0.0",
-      "swoft/connection-pool": "~2.0.0",
-      "swoft/rpc": "~2.0.0"
+      "no": "no"
     },
     "authors": [
         {
