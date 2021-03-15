@@ -1,37 +1,32 @@
 {
-    "name": "cwp/rpc-client",
-    "description": "swoole rpc-client",
-    "type": "project",
+  "name": "cwp66/rpc-client",
+  "type": "library",
   "keywords": [
     "php",
     "swoole",
-    "swoft"
+    "swoft",
+    "rpc"
   ],
-    "require": {
-      "swoft/framework": "~2.0.0",
-      "swoft/rpc-client": "~2.0.0",
-    },
-    "authors": [
-        {
-            "name": "Wen Pei",
-            "email": "1471902569@qq.com"
-        }
-    ],
-    "autoload": {
-      "psr-4": {
-        "Cwp\\Rpc\\Client\\": "src/"
-      }
-    },
+  "description": "microservice framework base on swoole",
+  "license": "Apache-2.0",
+  "require": {
+    "swoft/framework": "~2.0.0",
+    "swoft/rpc-client": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cwp\\Rpc\\Client\\": "src/"
+    }
+  },
   "autoload-dev": {
     "psr-4": {
       "SwoftTest\\Rpc\\Client\\Unit\\": "test/unit"
     }
   },
-    "require-dev": {
-      "phpunit/phpunit": "^7.5"
-    },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
   "scripts": {
     "test": "php run.php -c phpunit.xml"
-  },
-  "license": "Apache-2.0"
+  }
 }
